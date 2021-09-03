@@ -18,6 +18,17 @@ body {
     font-weight: 400;
 }
 
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-content {
+    max-width: 978px;
+    margin: 0 auto;
+}
+
 .header__top {
     background-image: url('../images/top-bg.jpg');
     height: 100vh;
@@ -95,4 +106,17 @@ body {
 .menu__list-link:hover {
     color: #4E5665;
     border-bottom: 4px solid #ECB84C;
+}
+
+.reason {
+    padding: 80px 0;
+}
+
+.reason__title {
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #4E5665;
+    margin-bottom: 22px;
 }
