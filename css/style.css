@@ -39,7 +39,6 @@ body {
     line-height: 38px;
     text-align: center;
     color: #4E5665;
-    margin-bottom: 22px;
 }
 
 .header__top {
@@ -168,4 +167,32 @@ body {
 
 .about__title {
     margin-bottom: 13px;
+}
+
+.about__box-text {
+    margin-bottom: 72px;
+}
+
+.about__item {
+    margin-bottom: 100px;
+}
+
+.about__box {
+    padding: 33px 48px 18px 40px;
+    background-color: #fff;
+}
+
+.about__box-title {
+    font-family: Georgia;
+    font-size: 24px;
+    line-height: 25px;
+    color: #4E5665;
+    margin-bottom: 20px;
+}
+
+.about__box-text {
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 28px;
+    color: #505050;
 }
