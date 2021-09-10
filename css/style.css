@@ -181,7 +181,7 @@ body {
 }
 
 .about__box {
-    padding: 33px 48px 18px 40px;
+    padding: 33px 40px;
     background-color: #fff;
     max-width: 470px;
     position: relative;
@@ -224,10 +224,16 @@ body {
     margin-left: auto;
 }
 
-.about__item:nth-child(even) .about__box ::before {
+.about__item:nth-child(even) .about__box::before {
     right: 19px;
+    left: auto;
+    background-image: none;
+    border-right: 2px solid #ECB84C;
+    border-top: 2px solid #ECB84C;
 }
 
-.about__item:nth-child(even) .about__box ::after {
+.about__item:nth-child(even) .about__box::after {
     left: 19px;
+    border-right: none;
+    border-left: 2px solid #ECB84C;
 }
