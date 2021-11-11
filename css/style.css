@@ -43,6 +43,7 @@ body {
     line-height: 38px;
     text-align: center;
     color: #4E5665;
+    font-weight: 400;
 }
 
 .header__top {
@@ -242,6 +243,18 @@ body {
     border-left: 2px solid #ECB84C;
 }
 
+.about__preview-title {
+    margin-bottom: 38px;
+}
+
+.about__preview-text {
+    margin: 53px auto 80px;
+}
+
+.about__images-box {
+    padding-top: 73px;
+}
+
 .photo {
     padding: 80px 0;
 }
@@ -269,6 +282,7 @@ body {
 .photo__slider {
     max-width: 640px;
     margin: 0 auto;
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
 }
 
 .slick-arrow {
@@ -312,7 +326,7 @@ body {
 
 .footer__item--company {
     width: 300px;
-    padding-left: 280px;
+    padding-left: 250px;
 }
 
 .footer__item-title {
