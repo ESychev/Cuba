@@ -461,3 +461,29 @@ body {
     line-height: 19px;
     color: #505050;
 }
+
+.menu__btn {
+    display: none;
+}
+
+@media(max-width:700px) {
+    .header__title {
+        font-size: 120px;
+        line-height: 150px;
+    }
+    .header__text {
+        font-size: 20px;
+    }
+    .menu__btn {
+        display: block;
+        width: 60px;
+    }
+    .menu__btn span {
+        display: block;
+        margin-bottom: 10px;
+        background-color: #ECB84C;
+    }
+    .menu__list {
+        display: none;
+    }
+}
